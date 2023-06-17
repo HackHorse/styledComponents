@@ -1,0 +1,27 @@
+.form {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #F8F8F8;
+}
+
+.forminner{
+input{
+    height: 3em;
+    width: 30em;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+&.invalid input{
+    border: 1px solid red;
+}
+
+&.invalid label{
+   color: red;
+}
+
+
+}
+
